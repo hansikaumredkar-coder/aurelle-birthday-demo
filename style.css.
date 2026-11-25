@@ -81,3 +81,12 @@ footer {
   background: #f2e8f5;
   font-size: 0.9rem;
 }
+.hidden {
+  display: none;
+}
+
+#surpriseMessage {
+  margin-top: 20px;
+  color: #9b6b91;
+  font-weight: 600;
+}
