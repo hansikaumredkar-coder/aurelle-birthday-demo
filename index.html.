@@ -43,6 +43,6 @@
     <footer>
         <p>Created with love by Aurelle Studio</p>
     </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
