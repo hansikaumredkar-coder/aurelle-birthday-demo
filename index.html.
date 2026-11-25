@@ -1,51 +1,54 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head> <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Little Birthday Surprise 🎀</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Birthday Surprise</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">A little celebration</p>
+      <div class="cake" aria-hidden="true">🎂</div>
 
-    <header>
-        <h1>A Little Birthday Surprise</h1>
-        <p>Made with love, just for you ♡</p>
-    </header>
+      <h1>Happy Birthday!</h1>
 
-    <main>
-        <section class="welcome">
-            <p class="small-text">A SPECIAL DAY FOR</p>
+      <p class="intro">
+        Today is all about celebrating someone wonderful.
+        May your day be filled with smiles, love, and lovely surprises.
+      </p>
 
-            <h2>Someone Wonderful</h2>
+      <button id="surpriseButton" class="button" type="button">
+        Open your surprise 💌
+      </button>
 
-            <p>
-                Today is all about you,
-                your happiness, and all the beautiful
-                moments waiting ahead.
-            </p>
+      <p id="surpriseMessage" class="surprise-message hidden" aria-live="polite">
+        You deserve all the happiness, love, and beautiful surprises in the world! 💗
+      </p>
+    </section>
 
-            <button id="surpriseButton">
-                Open Your Surprise 🎁
-            </button>
-        </section>
+    <section class="note-section">
+      <h2>A little birthday note</h2>
 
-        <section id="surprise" hidden>
-            <h2>Happy Birthday! 🎂</h2>
-<button id="surpriseButton" class="button">Open your surprise 💌</button>
-<p id="surpriseMessage" class="hidden"></p>
-            <p>
-                May your day be filled with
-                laughter, love, and magical memories.
-            </p>
-        </section>
-    </main>
+      <div class="message-card">
+        <p>
+          I hope this new year of your life brings you wonderful memories,
+          exciting adventures, and countless reasons to smile.
+        </p>
+        <p>
+          Keep being your lovely self. You make the world a little brighter!
+        </p>
+        <span class="heart">With love, always ♡</span>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-        <p>Created with love by Aurelle Studio</p>
-    </footer>
-<script src="script.js"></script>
-<button id="surpriseButton" class="button">Open your surprise 💌</button>
-<p id="surpriseMessage" class="hidden"></p>
+  <footer>
+    Made with love and a little bit of magic ✨
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
