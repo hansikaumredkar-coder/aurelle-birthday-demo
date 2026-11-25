@@ -32,7 +32,8 @@
 
         <section id="surprise" hidden>
             <h2>Happy Birthday! 🎂</h2>
-
+<button id="surpriseButton" class="button">Open your surprise 💌</button>
+<p id="surpriseMessage" class="hidden"></p>
             <p>
                 May your day be filled with
                 laughter, love, and magical memories.
