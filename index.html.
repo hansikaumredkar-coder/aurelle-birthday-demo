@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Birthday Surprise 🎀</title>
+</head>
+<body>
+
+    <header>
+        <h1>A Little Birthday Surprise</h1>
+        <p>Made with love, just for you ♡</p>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <p class="small-text">A SPECIAL DAY FOR</p>
+
+            <h2>Someone Wonderful</h2>
+
+            <p>
+                Today is all about you,
+                your happiness, and all the beautiful
+                moments waiting ahead.
+            </p>
+
+            <button id="surpriseButton">
+                Open Your Surprise 🎁
+            </button>
+        </section>
+
+        <section id="surprise" hidden>
+            <h2>Happy Birthday! 🎂</h2>
+
+            <p>
+                May your day be filled with
+                laughter, love, and magical memories.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created with love by Aurelle Studio</p>
+    </footer>
+
+</body>
+</html>
